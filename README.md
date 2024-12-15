@@ -22,6 +22,8 @@ The lack of credit history information can lead to adverse outcomes, where some 
 
 This project uses a **Meta-Modeling approach** to predict loan defaults by combining two machine learning models: **CatBoost**, which handles imbalanced data and general patterns, and **One-Class SVM**, which detects anomalies in high-risk applicants. 
 A **Random Forest meta-classifier** integrates their predictions for better accuracy. Advanced feature engineering ensures clean, meaningful data, improving performance and interpretability. CatBoost focuses on overall trends, while One-Class SVM highlights defaulters. Together, this system helps loan providers reduce risks, avoid missed opportunities, and make smarter decisions.
+
+
 **Key Insights:**
 
 1.	Top Features:
