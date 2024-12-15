@@ -20,29 +20,26 @@ The lack of credit history information can lead to adverse outcomes, where some 
 
 **Methodology**
 
-•	To mitigate these risks, this project leverages a unique Meta-Modeling approach that combines the strengths of two powerful machine learning algorithms: CatBoost, a gradient boosting model known for its superior handling of categorical data and imbalanced datasets, and One-Class SVM, a robust anomaly detection algorithm designed to focus on the minority class of loan defaulters.
-What sets this project apart is its innovative use of a meta-classifier, which dynamically integrates predictions from these two distinct models to optimize classification accuracy. By utilizing historical application data, the project incorporates advanced feature engineering techniques to extract meaningful patterns, correct data inconsistencies, and handle missing values intelligently.
-This dual-model framework not only improves predictive performance but also enhances interpretability by aligning each component with specific business challenges. CatBoost excels at identifying general patterns across all applicants, while the One-Class SVM provides deep insights into anomalies within the minority defaulter class. Together, these models, guided by a Random Forest meta-classifier, create a seamless decision-making system that empowers loan providers to maximize profits and minimize risk.
-By addressing both opportunity loss and financial loss, this project exemplifies how cutting-edge machine learning techniques can be tailored to solve high-stakes problems in consumer finance with precision and reliability.
-
+This project uses a **Meta-Modeling approach** to predict loan defaults by combining two machine learning models: **CatBoost**, which handles imbalanced data and general patterns, and **One-Class SVM**, which detects anomalies in high-risk applicants. 
+A **Random Forest meta-classifier** integrates their predictions for better accuracy. Advanced feature engineering ensures clean, meaningful data, improving performance and interpretability. CatBoost focuses on overall trends, while One-Class SVM highlights defaulters. Together, this system helps loan providers reduce risks, avoid missed opportunities, and make smarter decisions.
 **Key Insights:**
 
 1.	Top Features:
-o	Higher income-to-loan ratios and longer credit history reduce default risk.
-o	Prior defaults strongly predict future defaults.
+Higher income-to-loan ratios and longer credit history reduce default risk.
+Prior defaults strongly predict future defaults.
 
 2.	Anomalies:
-o	One-Class SVM identified high-risk cases with unusual patterns like high loans or short credit history.
+One-Class SVM identified high-risk cases with unusual patterns like high loans or short credit history.
 
 3.	Class Imbalance:
-o	Balanced using oversampling and weighted loss to improve fairness.
+Balanced using oversampling and weighted loss to improve fairness.
 
 4.	Model Performance:
-o	The Meta-Classifier (CatBoost + SVM) achieved an AUC-ROC of 0.92, balancing precision and recall.
+he Meta-Classifier (CatBoost + SVM) achieved an AUC-ROC of 0.92, balancing precision and recall.
 
 5.	Business Impact:
-o	Reduces missed opportunities by approving reliable applicants.
-o	Flags risky defaulters to cut financial losses.
+Reduces missed opportunities by approving reliable applicants.
+Flags risky defaulters to cut financial losses.
 
 **Conclusions:**
 
