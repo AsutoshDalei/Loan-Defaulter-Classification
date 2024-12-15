@@ -49,4 +49,3 @@ Conclusions:
 2.	Scalable & Actionable: The framework is adaptable for fraud detection or healthcare risks.
 3.	Fair & Ethical: Ensures unbiased predictions for better decision-making.
 
-![image](https://github.com/user-attachments/assets/17d2e45b-a86b-4407-9673-3d5c6da578bd)
